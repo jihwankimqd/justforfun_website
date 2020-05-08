@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="menu.css">
+  <title>My Projects</title>
+</head>
+<body>
+  <div class="menu-wrap">
+    <input type="checkbox" class="toggler">
+    <div class="hamburger"><div></div></div>
+    <div class="menu">
+      <div>
+        <div>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li class= "current"><a href="projects.html">Projects</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="showcase-p">
+    <div class="about-title">
+        Relevant Projects
+    </div>
+
+    <div class="project-info container">
+
+        <div class="job project1">
+            <h3>Classical Mechanics</h3>
+            <img src="img/cannonball.jpg" alt="Cannonball image">
+            <h4>Python/Numpy/Matplotlib, Differential Equations</h4>
+            <p>Calculated projectory of a cannonball (to shoot down a plane) by solving/simplifying second order differential equations for the x and y positions of the cannonball 
+              with air resistance taken into account. 
+            </p>
+            
+            <p>Methods Used: 4th order Runge-Kutta Method to solve the first order differential equations.</p>
+            <a href="index.html" class= "button">View</a>
+            
+        </div>
+
+        <div class="job project2">
+          <h3>Ignorant Monty Hall</h3>
+          <p></p>
+          <p></p>
+
+          <img src="img/montyfall.jpg" alt="Monty Fall image">
+          <img src="img/montyhall.jpg" alt="Monty Hall image">
+          <img src="img/montyfallsimulation.jpg" alt="Monty Fall probabilities">
+
+          <p></p>
+          <p></p>
+
+          <h4>Python/Numpy, Conditional Probabilities</h4>
+          <p>Simulated a modified version of the Monty Hall Problem, where the host doesn't know where the 
+            prize is. By not knowing this fact, it affects the probability of the contestant winning the prize
+            as shown in the simulation. 
+          </p>
+          <p>Methods Used: Conditional Probabilities, Bayes' Theorem</p>
+          <p></p>
+
+          <a href="index.html" class= "button">View</a>
+          
+        </div>
+
+        <div class="job project3">
+          <h3>Monte Carlo Method</h3>
+
+          <img src="img/montecarlo.jpg" alt="Monte Carlo Method">
+
+          
+          <h4>Python/Numpy/Matplotlib, Monte Carlo Methods</h4>
+          <p>Simulated a higher order dimensional graph. The volume would be impossible to find without 
+            advanced knowledge of multivariable calculus, but using the Monte-Carlo Method and random sampling,
+            it was solved in seconds.
+          </p>
+          <p>Methods Used: Monte-Carlo Methods, Random Sampling</p>
+          <p></p>
+          <a href="index.html" class= "button">View</a>
+          
+        </div>
+        <div class="job project4">
+          <h3>Matrix and Electricity</h3>
+          <img src="img/ludecomp.jpg" alt="Electricity and Matrix">
+          <h4>Python/Numpy, Linear Algebra</h4>
+          <p></p>
+
+          <p>Used Ohm's law and Kirchoff's laws to simplify the problem into a set of linear algebra eqautions. 
+            Then, using LU decomposition, the eigenvalues/vectors had been found and used to generalize the problem
+            to predict the voltage in a system of N resistors.
+          </p>
+          <p>Methods Used: Linear Algebra, LU Decopmsition, Banded Matrix</p>
+          <p></p>
+
+          <a href="index.html" class= "button">View</a>
+          
+      </div>
+
+      <div class="job project5">
+        <h3>Lotka-Volterra Eq.</h3>
+        <img src="img/lotkavolterra.jpg" alt="Lotka-Volterra image">
+        <h4>Python/Numpy/Matplotlib, Regression</h4>
+        <p>Lotka-Volterra Equations show the mathematical model between the interactions between predator and prey
+          in the environment. By solving the L-V Equations, a predictive model of rabbit and fox population
+          had been produced over a time period.
+        </p>
+        <p>Methods Used: 4th order Runge-Kutta Method to solve the first order differential equations, Regression </p>
+        
+        <a href="index.html" class= "button">View</a>
+        
+      </div>
+
+      <div class="job project6">
+        <h3>Vue.js Sorting</h3>
+        <img src="img/vuesorting.jpg" alt="Vue Sorting Visualizer">
+        <h4>Javascript (Vue.js), HTML, CSS</h4>
+        <p></p>
+        <p>Used Vue.js, HTML, and CSS to program a sorting algorithm visualizer. Different options are available in the
+          control menu, and can be used to randomize, or choose different sorting algorithms to visualize.
+        </p>
+        <p>Methods Used: Merge Sort, Bubble Sort, Quick Sort, Randomization</p>
+        <p></p>
+        <p></p>
+        <p></p>
+
+        <a href="index.html" class= "button">View</a>
+        
+      </div>
+    </div>
+
+    </div>
+  </section>
+   
+    
+
+
+
+  <script src="./main.js"></script>
+</body>
+</html>
